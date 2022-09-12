@@ -1,30 +1,58 @@
 <template>
+
+  <div class="container">
+    <sig-navigation :ativo="active"/>
+    <div class="main" :class="active? 'active' : ''">
+      <sig-topbar @navegacao="navegar"/>
+      <router-view/>
+    </div>
+  </div>
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
-  <router-view/>
+  
 </template>
+<script>
+  import SigNavigation from './components/SigNavigation.vue';
+  import SigTopbar from './components/SigTopbar.vue'
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+export default{
+  components:{
+    SigNavigation,
+    SigTopbar
+  },
+  data(){
+    return{
+      active: false
+    }
+  },
+  methods:{
+    navegar(e){
+      this.active = e;
+    }
+  }
+}
+</script>
+<style scoped>
+.container{
+      position:relative;
+      width: 100%;
+
+}
+.main {
+      position: absolute;
+      width: calc(100% - 300px);
+      left: 300px;
+      min-height: 100vh;
+      background: var(--white);
+      transition: 0.5s;
+
 }
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+.main.active {
+      width: calc(100% - 80px);
+      left: 80px;
+      transition: 0.5s;
 }
 </style>

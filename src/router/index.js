@@ -1,11 +1,30 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import SigHome from '../views/SigHome.vue'
+import SigOperadores from '../views/SigOperadores.vue'
+import SigSetores from '../views/SigSetores.vue'
+import SigPerfil from '../views/SigPerfil.vue'
+
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'Home',
+    component: SigHome
+  },
+  {
+    path: '/operadores',
+    name: 'Operadores',
+    component: SigOperadores
+  },
+  {
+    path: '/setores',
+    name: 'Setores',
+    component: SigSetores
+  },
+  {
+    path: '/perfil',
+    name: 'Perfil',
+    component: SigPerfil
   },
   {
     path: '/about',
