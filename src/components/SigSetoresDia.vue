@@ -2,7 +2,7 @@
       <div class="uk-panel uk-card-default uk-margin-top" >
             <div class="uk-flex uk-flex-between uk-flex-middle  uk-padding-remove-bottom sig-header">
                   <span class="icon uk-margin-left"><i class="fa-solid fa-chart-pie"></i></span>
-                  <span class="title uk-margin-top"><h3>Vendas Por Seção</h3></span>
+                  <span class="title uk-margin-top"><h3>Vendas Por Seção <span class="uk-text-meta">Em Milhares</span></h3></span>
                   <span class="badge"></span>
 
             </div>

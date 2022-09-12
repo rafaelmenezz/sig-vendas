@@ -3,7 +3,7 @@
             <div class="uk-flex uk-flex-between uk-flex-middle  uk-padding-remove-bottom sig-header">
                   <span class="icon uk-margin-left"><i class="fa-solid fa-users"></i></span>
                   <span class="title uk-margin-top">
-                        <h3>Operação</h3>
+                        <h3>Postos de Atendimento</h3>
                   </span>
                   <span class="badge"></span>
 

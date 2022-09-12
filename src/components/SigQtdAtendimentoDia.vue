@@ -2,7 +2,7 @@
       <div class="uk-panel uk-card-default uk-margin-top" >
             <div class="uk-flex uk-flex-between uk-flex-middle  uk-padding-remove-bottom sig-header">
                   <span class="icon uk-margin-left"><i class="fa-solid fa-chart-area"></i></span>
-                  <span class="title uk-margin-top"><h3>Tempo Médio de Atendimento</h3></span>
+                  <span class="title uk-margin-top"><h3>Tempo Médio de Atendimento <span class="uk-text-meta">Em minutos</span></h3></span>
                   <span class="badge"></span>
 
             </div>
