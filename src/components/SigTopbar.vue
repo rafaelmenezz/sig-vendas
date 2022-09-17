@@ -11,7 +11,9 @@
             <!-- user image -->
 
             <div class="user">
-                  <img src="user.jpg" alt="Foto do Usuario">
+                  <router-link to="/perfil">
+                        <img src="../assets/operadores/madruga.jpg" alt="Foto do Usuario" />
+                  </router-link>
             </div>
       </div>
 
@@ -45,6 +47,8 @@ export default {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      border-bottom: 1px solid #888;
+      background-color: var(--azul);
 }
 
 .toggle {
@@ -57,6 +61,7 @@ export default {
       align-items: center;
       font-size: 2.5em;
       cursor: pointer;
+      color: #fff;
 }
 
 .sig-page {
@@ -72,6 +77,7 @@ export default {
       font-size: 2.4em;
       width: 100%;
       margin-top: 15px;
+      color: #fff;
 }
 
 

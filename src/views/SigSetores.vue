@@ -1,5 +1,7 @@
 <template>
-      <h1>Setores</h1>
+      <div class="setores">
+            
+      </div>
 </template>
 
 <script>
@@ -8,6 +10,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+.setores{
+      width: 100%;
+      padding: 20px;
+}
 
 </style>

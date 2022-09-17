@@ -6,8 +6,8 @@
                   <span class="badge"></span>
 
             </div>
-                  <div class="uk-card-body uk-padding-small uk-width-1-1 " >
-                        <bar-chart  class="uk-height-large"/>
+                  <div class=" uk-padding-small " >
+                        <bar-chart  class="uk-height-medium"/>
                   </div>
             
       </div>

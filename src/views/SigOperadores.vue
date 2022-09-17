@@ -1,10 +1,14 @@
 <template>
-      <h1>Operadores</h1>
+      <tb-operadores />
 </template>
 
 <script>
+      import TbOperadores from '@/components/operadores/PesquisaOperadores.vue';
 export default {
-      name: 'SigOperadores'
+      name: 'SigOperadores',
+      components:{
+            TbOperadores
+      }
 }
 </script>
 
